@@ -1,32 +1,64 @@
-Assignment 3 — Node.js Basics & Introduction
-Description
+README.md Content
 
-Introductory Node.js exercises covering how to write and run a basic script, and how to print structured output using console.log().
+Copy the section below into the README.md file inside the project folder.
 
-app.js — prints a welcome message to the terminal.
-introduction.js — prints a personal introduction (Name, Education, Current Learning, Goal).
-Steps to Run
-Install Node.js (LTS) from https://nodejs.org
-Verify installation:
-   node -v
-Navigate to the assignment folder:
-   cd Assignmnet-3
-Run the programs:
-   node app.js
-   node introduction.js
-Output
+markdown
+# NodeJS Basics Assignment
 
-app.js
+Two basic Node.js programs demonstrating how to create and run JavaScript files
+using the Node.js runtime and print output to the terminal using `console.log()`.
 
-Hello, Node.js!
-I am learning backend development
+## Files
 
-introduction.js
+| File | Description |
+| --- | --- |
+| `app.js` | Prints a greeting message and a learning statement |
+| `introduction.js` | Prints personal introduction details |
 
-Name: Ved
-Education: B.Tech CSE
-Current Learning: Node.js
-Goal: Backend Developer
-Author
+## app.js
 
-Ved Patil
+Displays two lines confirming that Node.js is running.
+
+Output:
+
+Hello, Node.js! I am learning backend development
+
+
+## introduction.js
+
+Displays personal details using four `console.log()` statements.
+
+Output:
+
+Name: Ved Education: B.Tech CSE Current Learning: Node.js Goal: Backend Developer
+
+
+## Steps to Run
+
+1. Install Node.js and verify with `node -v`.
+2. Open the project folder in a terminal.
+3. Run each program using the commands below.
+
+## Commands Used
+
+```bash
+node -v
+node app.js
+node introduction.js
+```
+
+## Output Screenshots
+
+[ Insert screenshot of `node app.js` output ]
+
+[ Insert screenshot of `node introduction.js` output ]
+
+## Concepts Covered
+
+- Installing and verifying the Node.js runtime
+- Creating and executing `.js` files with the `node` command
+- Printing to the terminal using `console.log()`
+- Understanding that Node scripts run and exit without a server or localhost
+- Organising a project with proper file naming and documentation
+Content
+
