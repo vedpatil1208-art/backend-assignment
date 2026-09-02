@@ -98,8 +98,8 @@ const server = http.createServer((req, res) => {
         case '/contact':
             res.end(generateHTML("Contact Details", `
                 <h1>Contact Details</h1>
-                <p><strong>Email:</strong> krishshinde2128@gmail.com</p>
-                <p><strong>GitHub:</strong>https://github.com/krishshinde2128-glitch</p>
+                <p><strong>Email:</strong> vedpatil1208@gmail.com</p>
+                <p><strong>GitHub:</strong>https://github.com/vedpatil1208-art</p>
             `));
             break;
         default:
