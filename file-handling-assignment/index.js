@@ -6,7 +6,7 @@ Technology: Node.js
 `;
 
 const extraData = `Experience: 1 Year
-City: Kolkata
+City: Mumbai
 `;
 
 // Task 1 - create the file and write student information
